@@ -23,8 +23,6 @@ def auth():
     with open('login.txt') as log:
         l=log.readlines()
     
-    if 
-    
     if l==logdigest and p==passdigest:
         print("Access granted")
     
